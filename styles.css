@@ -1,7 +1,10 @@
 * {
     padding: 0%;
     margin: 0;
+    font-family: 'Secular One';
 }
+
+
 
 .header {
     display: flex;
@@ -36,22 +39,30 @@ h2 {
     background-color: rgb(168, 1, 1);
     height: 40px;
     width: 100%;
-    
+
 }
 
 .nav ul {
     display: flex;
     list-style-type: none;
     width: 70%;
+    height: 100%;
     margin: auto;
 }
 
 .nav ul li {
-   margin: 11px;
+    padding: 12px;
+    border-left: 0.5px solid white;
+    margin-left: 10px;
+}
+
+.nav ul .last{
+    border-right: 0.5px solid white;
 }
 
 .nav ul li a {
     text-decoration: none;
+
 }
 
 .nav a {
