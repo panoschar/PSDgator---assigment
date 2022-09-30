@@ -1,10 +1,8 @@
 * {
     padding: 0%;
     margin: 0;
-    font-family: 'Secular One';
+    font-family: "Secular One";
 }
-
-
 
 .header {
     display: flex;
@@ -15,7 +13,7 @@ h2 {
     color: rgb(104, 104, 104);
     font-size: 40px;
     width: 50%;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .contact-lines {
@@ -26,47 +24,88 @@ h2 {
 }
 
 .contact-lines .box1 {
-    background-color: red;
     width: 200px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.box1 .line1 {
+    color: rgb(168, 1, 1);
+    border-bottom: 0.5px solid grey;
+    padding-bottom: 5px;
+}
+
+.box1 .line1 span {
+    color: rgb(104, 104, 104);
+    margin-left: 20px;
+}
+
+.box1 .line2 {
+    color: rgb(168, 1, 1);
+    margin-top: 5px;
+}
+
+.box1 .line2 span {
+    color: rgb(104, 104, 104);
+    margin-left: 10px;
 }
 
 .contact-lines .box2 {
-    background-color: blue;
     width: 200px;
+    padding: 8px;
+    text-align: center;
+}
+
+.box2 .line3 {
+    color: rgb(168, 1, 1);
+}
+
+.box2 .line3 span {
+    color: rgb(104, 104, 104);
+    font-size: 25px;
+}
+
+.search {
+    background-color: white;
+    border: 0.5px solid rgb(233, 233, 233);
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 2px;
 }
 
 .nav {
     background-color: rgb(168, 1, 1);
     height: 40px;
     width: 100%;
-
 }
 
 .nav ul {
     display: flex;
     list-style-type: none;
-    width: 70%;
+    width: 68%;
     height: 100%;
     margin: auto;
 }
 
 .nav ul li {
-    padding: 12px;
     border-left: 0.5px solid white;
-    margin-left: 10px;
+    padding: 11px;
 }
 
-.nav ul .last{
+.nav ul .last {
     border-right: 0.5px solid white;
 }
 
 .nav ul li a {
     text-decoration: none;
-
+    font-size: 12px;
+    
 }
 
 .nav a {
     color: azure;
+    margin: 9px;
 }
 
 h2 span {
