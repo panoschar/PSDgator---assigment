@@ -1,0 +1,72 @@
+
+.header {
+    display: flex;
+    margin: 2% 15%;
+    background-color: yellow;
+  }
+  
+  h2 {
+    color: rgb(104, 104, 104);
+    font-size: 40px;
+    width: 50%;
+  }
+  
+  .contact-lines {
+    display: flex;
+    
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+  
+  .contact-lines .box1 {
+    width: 200px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: red;
+  }
+  
+  .box1 .line1 {
+    color: rgb(168, 1, 1);
+    border-bottom: 0.5px solid grey;
+    padding-bottom: 5px;
+  }
+  
+  .box1 .line1 span {
+    color: rgb(104, 104, 104);
+    margin-left: 20px;
+  }
+  
+  .box1 .line2 {
+    color: rgb(168, 1, 1);
+    margin-top: 5px;
+  }
+  
+  .box1 .line2 span {
+    color: rgb(104, 104, 104);
+    margin-left: 10px;
+  }
+  
+  .contact-lines .box2 {
+    width: 200px;
+    padding: 8px;
+    text-align: center;
+    background-color: aqua;
+  }
+  
+  .box2 .line3 {
+    color: rgb(168, 1, 1);
+  }
+  
+  .box2 .line3 span {
+    color: rgb(104, 104, 104);
+    font-size: 25px;
+  }
+  
+  .search {
+      background-color: white;
+      border: 0.5px solid rgb(233, 233, 233);
+      width: 40px;
+      height: 40px;
+      margin-top: 10px;
+      border-radius: 2px;
+    }
