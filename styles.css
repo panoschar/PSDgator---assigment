@@ -54,7 +54,6 @@ h2 {
   width: 200px;
   padding: 8px;
   text-align: center;
-  
 }
 
 .box2 .line3 {
@@ -79,21 +78,19 @@ h2 {
 
 .nav {
   background-color: rgb(168, 1, 1);
-  flex: 1;
-  text-align: left;
+  width: 100%;
+  height: 34px;
 }
 
 .nav ul {
-  margin: 2% 15%;
-}
+    margin: 2% 15%;
+  }
 
 .nav ul li {
   list-style: none;
   display: inline-block;
   padding: 8px 12px;
-  position: relative;
   border-left: 0.5px solid white;
-  padding: 10px 10px;
 }
 
 .nav ul .last {
@@ -109,6 +106,28 @@ h2 {
 h2 span {
   color: rgb(168, 1, 1);
 }
+
+/*--------Nav burger-------*/
+
+.nav .burger {
+    position: absolute;
+    color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    margin: 6px 10px;
+    height: 20px;
+    
+}
+
+.nav .burger .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
 
 /*--------Card style-------*/
 
@@ -143,34 +162,28 @@ h2 span {
   }
 
   .contact-lines {
-   display: block;
-  }
-
-  .contact-lines .box1 {
-    font-size: 9px;
-    text-align: center;
-    margin: 5px auto;
-    width: 150px;
-  }
-
-  .contact-lines .box2 {
-    text-align: center;
-    
-  }
-
-  .box2 .line3 {
-    font-size: 10px;
-  }
-
-  .box2 .line3 span {
-    font-size: 10px;
+    display: none;
   }
 
   .search {
-    margin-left: 90px;
-    width: 30px;
+    position: relative;
+    width: 25px;
     height: 25px;
     font-size: 9px;
+    bottom: 0.5rem;
+    left: 9rem;
   }
 
+  .nav .burger {
+    display: flex;
+  }
+
+  .nav ul {
+   /* display: none;*/
+  }
+
+  ul {
+    display: block;
+  }
+ 
 }
