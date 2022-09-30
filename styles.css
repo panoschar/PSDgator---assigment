@@ -4,14 +4,11 @@
   font-family: "Secular One";
 }
 
-
- /*--------Header style-------*/
-
+/*--------Header style-------*/
 
 .header {
   display: flex;
   margin: 2% 15%;
-  background-color: yellow;
 }
 
 h2 {
@@ -22,7 +19,6 @@ h2 {
 
 .contact-lines {
   display: flex;
-
   justify-content: flex-end;
   margin-right: 20px;
 }
@@ -31,7 +27,6 @@ h2 {
   width: 200px;
   padding: 10px;
   font-size: 15px;
-  background-color: red;
 }
 
 .box1 .line1 {
@@ -59,7 +54,7 @@ h2 {
   width: 200px;
   padding: 8px;
   text-align: center;
-  background-color: aqua;
+  
 }
 
 .box2 .line3 {
@@ -80,7 +75,7 @@ h2 {
   border-radius: 2px;
 }
 
- /*--------Navbar style-------*/
+/*--------Navbar style-------*/
 
 .nav {
   background-color: rgb(168, 1, 1);
@@ -102,8 +97,8 @@ h2 {
 }
 
 .nav ul .last {
-    border-right: 0.5px solid rgb(233, 233, 233);
-  }
+  border-right: 0.5px solid rgb(233, 233, 233);
+}
 
 .nav ul li a {
   color: white;
@@ -115,9 +110,7 @@ h2 span {
   color: rgb(168, 1, 1);
 }
 
-
- /*--------Card style-------*/
-
+/*--------Card style-------*/
 
 .row {
   display: flex;
@@ -140,4 +133,44 @@ h2 span {
   color: white;
 }
 
+@media (max-width: 1000px) {
+  .header {
+    margin: 10px;
+  }
 
+  h2 {
+    font-size: 25px;
+  }
+
+  .contact-lines {
+   display: block;
+  }
+
+  .contact-lines .box1 {
+    font-size: 9px;
+    text-align: center;
+    margin: 5px auto;
+    width: 150px;
+  }
+
+  .contact-lines .box2 {
+    text-align: center;
+    
+  }
+
+  .box2 .line3 {
+    font-size: 10px;
+  }
+
+  .box2 .line3 span {
+    font-size: 10px;
+  }
+
+  .search {
+    margin-left: 90px;
+    width: 30px;
+    height: 25px;
+    font-size: 9px;
+  }
+
+}
