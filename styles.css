@@ -84,14 +84,16 @@ h2 {
 
 .nav ul {
     margin: 2% 15%;
+    
   }
 
-.nav ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 8px 12px;
-  border-left: 0.5px solid white;
-}
+  .nav ul li {
+    list-style: none;
+    background-color:rgb(168, 1, 1) ;
+    padding: 8px 12px;
+    border-left: 0.5px solid white;
+    display: inline-block;
+  }
 
 .nav ul .last {
   border-right: 0.5px solid rgb(233, 233, 233);
@@ -179,11 +181,28 @@ h2 span {
   }
 
   .nav ul {
-   /* display: none;*/
+    display: none;
   }
 
-  ul {
-    display: block;
+  .nav ul li {
+    display: flex;
   }
- 
+
+  .nav ul.active {
+    display: block;
+    position: absolute;
+  }
+
+  .row {
+    display: block; 
+  }
+
+  .card {
+    background-color: black;
+    width: 90%;
+    height: 300px;
+    border-radius: 4px;
+    margin: 30px auto;
+  }
+
 }
